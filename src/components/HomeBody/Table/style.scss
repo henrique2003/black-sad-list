@@ -10,6 +10,15 @@
     background: rgba(0,0,0,0.05);
     padding: 10px 30px;
     transition: all .3s ease;
+    font-size: 18px;
+
+    @media(max-width: 500px) {
+      font-size: 16px;
+    }
+    
+    @media(max-width: 400px) {
+      font-size: 14px;
+    }
 
     .space {
       margin: 5px 0;
