@@ -1,5 +1,6 @@
-import React from "react"
+import React from 'react'
+import { HomeBody } from '../components'
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <HomeBody />
 }

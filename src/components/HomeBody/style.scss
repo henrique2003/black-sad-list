@@ -1,0 +1,41 @@
+.home {
+  .container {
+    margin: 0 auto;
+    max-width: 1000px;
+
+    @media(max-width: 1100px) {
+      margin: 0 30px;
+    }
+
+    .title {
+      font-size: 60px;
+      font-family: 'Goldman', cursive;
+      color: #29e42f;
+      text-align: center;
+      margin: 0;
+      margin-top: 100px;
+    }
+
+    P {
+      text-align: center;
+      color: white;
+      font-size: 17px;
+    }
+    
+    .by {
+      font-size: 18px;
+      opacity: 0.015;
+    }
+
+    .user {
+      max-width: 400px;
+      opacity: 0.007;
+      margin: 0 auto;
+      font-size: 15px;
+    }
+
+    .description {
+      font-size: 22px;
+    }
+  }
+}

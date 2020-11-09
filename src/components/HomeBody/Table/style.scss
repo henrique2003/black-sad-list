@@ -1,0 +1,39 @@
+.list {
+  width: 100%;
+
+  table {
+    width: 100%;
+    text-align: left;
+    color: white;
+    background: rgba(0,0,0,0.05);
+    padding: 10px 30px;
+    transition: all .3s ease;
+
+    .space {
+      margin: 5px 0;
+    }
+
+    &:hover {
+      transition: all .3s ease;
+      background: rgba(0,0,0,0.1);
+    }
+
+    th {
+      color: #29e42f;
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;
+    }
+
+    .no {
+      color: red;
+    }
+
+    .never {
+      color: purple;
+    }
+
+    .perhaps {
+      color: yellow;
+    }
+  }
+}
