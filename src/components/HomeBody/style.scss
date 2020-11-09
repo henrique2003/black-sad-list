@@ -1,16 +1,11 @@
+@import '../layout/style.scss';
+
 .home {
   .container {
-    margin: 0 auto;
-    max-width: 1000px;
-
-    @media(max-width: 1100px) {
-      margin: 0 30px;
-    }
-
     .title {
       font-size: 60px;
       font-family: 'Goldman', cursive;
-      color: #29e42f;
+      color: $green;
       text-align: center;
       margin: 0;
       margin-top: 100px;
@@ -18,7 +13,7 @@
 
     P {
       text-align: center;
-      color: white;
+      color: $white;
       font-size: 17px;
     }
     

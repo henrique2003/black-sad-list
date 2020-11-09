@@ -1,3 +1,6 @@
+$green: #29e42f;
+$white: white;
+
 body {
   box-sizing: border-box;
   padding: 0;
@@ -6,4 +9,13 @@ body {
   background: rgba(0,0,0,0.85);
   font-family: 'Cairo', sans-serif;
   word-break: break-all;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+
+  @media(max-width: 1100px) {
+    margin: 0 30px;
+  }
 }
