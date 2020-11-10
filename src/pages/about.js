@@ -1,8 +1,8 @@
 import React from 'react'
 import { AboutYou } from '../components'
 
-const caiquezanoveli = () => {
+const about = () => {
   return <AboutYou />
 }
 
-export default caiquezanoveli
+export default about

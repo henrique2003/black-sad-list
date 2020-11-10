@@ -27,13 +27,19 @@ const Table = () => {
             ifFriend={1}
           />
           <SadPeople
+            name="Ana Cavallini"
+            occurrences="2"
+            friend="Não"
+            ifFriend={1}
+          />
+          <SadPeople
             name="Guilherme Vieira"
             occurrences="2"
             friend="Não"
             ifFriend={2}
           />
           <SadPeople
-            name="Nader Addad"
+            name="Nader Haddi"
             occurrences="2"
             friend="Não"
             ifFriend={2}

@@ -11,19 +11,23 @@ const Toronto = () => {
         <div className="row">
           <Card
             person="Caique Zanoveli"
-            link="/caiquezanoveli"
+            link="caiquezanoveli"
           />
           <Card
-            person="Nader Addad"
-            link="/naderaddad"
+            person="Nader Haddi"
+            link="naderhaddi"
           />
           <Card
             person="Carlos Eduardo"
-            link="/carloseduardo"
+            link="carloseduardo"
           />
           <Card
             person="Guilherme Vieira"
-            link="/guilhermevieira"
+            link="guilhermevieira"
+          />
+          <Card
+            person="Ana Cavaliini"
+            link="anacavaliini"
           />
         </div>
       </div>

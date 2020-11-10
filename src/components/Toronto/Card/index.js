@@ -5,7 +5,7 @@ import './style.scss'
 
 const Card = ({ person, link }) => {
   return (
-    <Link to={link} className="card">
+    <Link to={`/toronto/${link}`} className="card">
       <p>{person}</p>
     </Link>
   )
