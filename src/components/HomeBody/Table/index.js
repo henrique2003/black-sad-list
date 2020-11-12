@@ -16,7 +16,7 @@ const Table = () => {
           <div className="space"></div>
           <SadPeople
             name="Caique Zanoveli"
-            occurrences="1"
+            occurrences="2"
             friend="Nunca"
             ifFriend={0}
           />
