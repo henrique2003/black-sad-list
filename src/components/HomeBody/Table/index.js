@@ -30,7 +30,7 @@ const Table = () => {
             name="Ana Cavallini"
             occurrences="2"
             friend="Não"
-            ifFriend={1}
+            ifFriend={2}
           />
           <SadPeople
             name="Guilherme Vieira"
