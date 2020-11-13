@@ -1,11 +1,11 @@
 import React from 'react'
 import { siteMetadata } from '../../../gatsby-config'
-import { Reports, Table } from './components'
+import { Reports, Table, Alert } from './components'
 import {
-  CaiqueZanoveli,
-  CarlosEduardo,
-  GuilhermeVieira,
-  NaderHaddi
+  CaiqueZanoveli
+  // CarlosEduardo,
+  // GuilhermeVieira,
+  // NaderHaddi
 } from '../../images'
 
 import '../layout'
@@ -22,6 +22,7 @@ const HomeBody = () => {
         <Table />
         <div className="reports_container">
           <h3 className="report_title">Breves relatos</h3>
+          <Alert />
           <Reports
             imageProfile={CaiqueZanoveli}
             name="Caique Zanoveli"
