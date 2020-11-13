@@ -22,7 +22,7 @@ const Table = () => {
           />
           <SadPeople
             name="Carlos Eduardo"
-            occurrences="1"
+            occurrences="2"
             friend="Talvez"
             ifFriend={1}
           />
