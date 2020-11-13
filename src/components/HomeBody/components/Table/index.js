@@ -37,7 +37,13 @@ const Table = () => {
       {
         name: 'Bruno pioltini',
         occurrences: 1,
-        friend: 'Talvez'
+        friend: 'Talvez',
+        analyze: true
+      },
+      {
+        name: 'Guilherme Tavares',
+        occurrences: 1,
+        friend: 'Não'
       }
     ])
   }, [Peoples])
