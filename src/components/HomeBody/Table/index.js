@@ -44,6 +44,12 @@ const Table = () => {
             friend="Não"
             ifFriend={2}
           />
+          <SadPeople
+            name="Pedro Silva"
+            occurrences="1"
+            friend="Talvez"
+            ifFriend={1}
+          />
         </tbody>
       </table>
     </div>
