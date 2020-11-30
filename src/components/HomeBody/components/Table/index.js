@@ -26,7 +26,7 @@ const Table = () => {
       },
       {
         name: 'Guilherme Vieira',
-        occurrences: 2,
+        occurrences: 3,
         friend: 'Não'
       },
       {
